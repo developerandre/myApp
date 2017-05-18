@@ -44,7 +44,7 @@ How To Create a Loader
           
           
           
-          
+          Movie Card Interactive UI With Pure CSS3 Animation Rating
 
                                                                             <div class='card'>
                                                                     <div class='card_left'>
