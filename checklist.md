@@ -10,3 +10,27 @@ ensuite ds la console faire
     A notez que lors de la config en interface web dc domain est le nom qui sera utilisé ds le JID des utilsateurs. Tu peux choisir tout ce que tu veux pas forcement localhost com example.org.
     Apres configuration tu va ds l'onglet serveur puis da l'onglet parametres du serveurpuis clique sur HTTP Binding à gauche et tu verras l'URL du BOSCH (ex: http://example.org:7070/http-bind/).
     Pr le muc le service ar defaut est conference.example.org où example.org sera remplace par tn domain
+    
+    
+    
+    
+    encadrer les trois quarts d'un bloc HTML code:
+    
+     #holder {
+        border: 1px solid #000;
+        height: 200px;
+        width: 200px;
+        position:relative;
+        margin:10px;
+} 
+#mask {
+        position: absolute;
+        top:20px;
+        left:20%;
+        width:100%;
+        height: 80%;
+        background-color:#dddde2;
+}
+html{
+  background:#eee;
+}
