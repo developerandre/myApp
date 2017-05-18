@@ -22,15 +22,15 @@ ensuite ds la console faire
         width: 200px;
         position:relative;
         margin:10px;
-} 
-#mask {
+     } 
+      #mask {
         position: absolute;
         top:20px;
         left:20%;
         width:100%;
         height: 80%;
         background-color:#dddde2;
-}
-html{
-  background:#eee;
-}
+     }
+     html{
+      background:#eee;
+     }
