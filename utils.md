@@ -13,7 +13,14 @@ Comment utiliser Ionic2 pour designer ton appli web angular2.
   a partir de là tout fonctionne sauf qu'on a toujours pas de style ionic. Pour ce faire:
     Pour garder la structure similaire à un projet générer par ionic CLI créeons undossier theme dans le dossier src/, ensuite on telecharge ces deux fichiers et on les mets dans le dossier theme: ionic.scss and variables.scss.
 
-Finally include them in build process by editing angular-cli.json to load variables.scss first in the styles inside app:
+finallement tu les inclus dans angular-cli.json en chargeant le fichier variables.scss first dans le tableau de styles:
+
+      "styles": [
+         "theme/variables.scss",
+         "styles.scss"
+       ]
+       A partir de la tu peux coder comme t'étais dans un projet ionic.
+       ************************************************************************************
 
 How To Create a Loader
 
@@ -32,7 +39,7 @@ How To Create a Loader
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
     }
-    
+    ****************************************************************************
     
     <div class="parallax">xfhxhsdfg</div>
 
@@ -59,7 +66,7 @@ How To Create a Loader
               background-size: cover;
           }
           
-          
+ ******************************************************         
           
           Movie Card Interactive UI With Pure CSS3 Animation Rating
 
