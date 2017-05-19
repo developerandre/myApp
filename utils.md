@@ -1,9 +1,19 @@
 
 Comment utiliser Ionic2 pour designer ton appli web angular2.
     - Soit tu codes tout  dans un projet ionic crée avec le CLI d'Ionic puis tu build le projet avec 'npm run build' tu copies tout ce qui dans le dossier www dans ton projet web angular2 et enfin effacer la ligne main:'main.ts' dans le fichier .ionic-angular.json (facile ,seul inconvenient à chaque fois tu copies).
-    -Soit tu crée ton projet Angular, ensuite tu installes ionic-angular et tu gères les fichiers de styles puis la vie est belle quoi sauf que parfois on verra quelques WARNINGs dans la console.
+    -Soit tu crée ton projet Angular, ensuite tu installes ionic-angular && ionicons.Ensuite tu change le styleExt en scss dans le fichier .angular-cli.json. L'etape suivante est d'adapter le fichier app.module.ts:
+    on importe 
+      import { IonicApp, IonicModule } from 'ionic-angular';
+      imports: [ IonicModule.forRoot(AppComponent) ],
+      declarations: [ AppComponent ],
+      bootstrap: [ IonicApp ]
 
+  Sur ce tu as donc besoin de changer le selector dans le index.html tu change donc en ion-app.
+  
+  a partir de là tout fonctionne sauf qu'on a toujours pas de style ionic. Pour ce faire:
+    Pour garder la structure similaire à un projet générer par ionic CLI créeons undossier theme dans le dossier src/, ensuite on telecharge ces deux fichiers et on les mets dans le dossier theme: ionic.scss and variables.scss.
 
+Finally include them in build process by editing angular-cli.json to load variables.scss first in the styles inside app:
 
 How To Create a Loader
 
