@@ -12,6 +12,9 @@ Comment utiliser Ionic2 pour designer ton appli web angular2.
   
   a partir de là tout fonctionne sauf qu'on a toujours pas de style ionic. Pour ce faire:
     Pour garder la structure similaire à un projet générer par ionic CLI créeons undossier theme dans le dossier src/, ensuite on telecharge ces deux fichiers et on les mets dans le dossier theme: ionic.scss and variables.scss.
+    voici les liens:
+      https://github.com/mirkonasato/ionic2-with-angular-cli/edit/master/src/theme/ionic.scss
+      https://github.com/mirkonasato/ionic2-with-angular-cli/edit/master/src/theme/variables.scss
 
 finallement tu les inclus dans angular-cli.json en chargeant le fichier variables.scss first dans le tableau de styles:
 
