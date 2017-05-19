@@ -1,3 +1,10 @@
+
+Comment utiliser Ionic2 pour designer ton appli web angular2.
+    - Soit tu codes tout  dans un projet ionic crée avec le CLI d'Ionic puis tu build le projet avec 'npm run build' tu copies tout ce qui dans le dossier www dans ton projet web angular2(facile ,seul inconvenient à chaque fois tu copies).
+    -Soit tu crée ton projet Angular, ensuite tu installes ionic-angular et tu gères les fichiers de styles puis la vie est belle quoi sauf que parfois on verra quelques WARNINGs dans la console.
+
+
+
 How To Create a Loader
 
   <div class="loader"></div>
